@@ -1,0 +1,252 @@
+/*Обнуление*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/*--------------------*/
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.title {
+    font-size: 40px;
+    line-height: 40px;
+    margin-left: 35px;
+}
+
+/* header */
+.header {
+    padding-top: 30px;
+}
+
+.header-container {
+    width: 100%;
+}
+
+.header-top-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    height: 54px;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 40px;
+}
+
+.header-bottom-container {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+
+.header-nav {
+    margin-left: 45px;
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 45px;
+}
+
+.header-bottom-button {
+    margin-right: 45px;
+}
+
+.header-button:not(:last-child) {
+    margin-right: 40px;
+}
+
+/* special */
+
+.special {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.special-link {
+    padding: 40px 45px;
+}
+
+.special-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.special-left {
+    display: flex;
+    flex: 0 1 49%;
+    flex-direction: column;
+    margin-right: 24px;
+}
+
+.left {
+    flex: 0 1 50%;
+}
+
+.left:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+.special-right {
+    display: flex;
+    flex: 0 1 49%;
+    flex-direction: column;
+}
+
+.right {
+    flex: 0 1 100%;
+}
+
+/* about */
+
+.about {
+    padding-bottom: 70px;
+}
+
+.about-text {
+    margin-top: 20px;
+}
+
+/* services */
+
+.services {
+    padding-bottom: 70px;
+}
+
+.services-cont {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.services-item {
+    flex: 0 1 49%
+}
+
+/* benefits */
+
+.benefits {
+    padding-bottom: 70px;
+}
+
+.benefits-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 11px;
+}
+
+.benefits-item {
+    flex: 0 1 23.6%
+}
+
+/* placing */
+
+.placing-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.placing-item {
+    flex: 0 1 31.96%
+}
